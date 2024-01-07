@@ -16,6 +16,16 @@ This project focuses on stock market forecasting for five prominent companies fr
   * Batch_modeling.ipynb : Jupyter notebook for batch modeling, containing code and documentation.
 * Stream modeling :
   * Consumers:
-    * ModelTrainer_Consumer.py : Python script responsible for consuming data and training financial models.
+    * ModelTrainer_Consumer.py : Python script responsible for consuming data, training financial models, and producing to the next topic.
     * PredictionPlotter_Consumer.py : Python script responsible for consuming prediction data and generating plots.
+  * Images : Folder containing images related to different models used in stream modeling for all companies.
+  * Models :
+    * models.py : python script containing river streaming models for the forecasting.
+  * Producer :
+    * DataStream_Producer : Python script containing the data stream producer.
+  * Topics : Folder containing scripts related to the creation of the Kafka topics.
+  * data_files : Folder containing data files used in stream modeling.
+  * predictions_data_files : Folder to store prediction values and metrics after running the code.
+    
+  
   
