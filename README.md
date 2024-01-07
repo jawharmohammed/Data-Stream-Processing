@@ -12,7 +12,7 @@ Using Kafka for messaging and training some online models from the river ML libr
 
 ![Kafka Architecture](https://github.com/jawharmohammed/Data-Stream-Processing/assets/72218345/d81078a4-ad54-45f9-833f-d7e7d6e986b8)
 
-### Batch Learning
+### Batch Modeling
 
 Using Time Series processing and analysis techniques leveraging three main models: **LSTM**, **ARIMA**, and **PROPHET**.
 
@@ -41,11 +41,11 @@ Using Time Series processing and analysis techniques leveraging three main model
 
 1. Clone this repository.
 
-### Batch Modeling
+#### Batch Modeling
 
 - Open and run the Batch_modeling.ipynb notebook for batch modeling.
 
-### Stream Modeling
+#### Stream Modeling
 
 1. Run Zookeeper on a terminal:
     ```bash
