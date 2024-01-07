@@ -26,6 +26,21 @@ This project focuses on stock market forecasting for five prominent companies fr
   * Topics : Folder containing scripts related to the creation of the Kafka topics.
   * data_files : Folder containing data files used in stream modeling.
   * predictions_data_files : Folder to store prediction values and metrics after running the code.
+ 
+## Usage:
+* Clone this repository:
+*Batch Modeling: Open and run the Batch_modeling.ipynb notebook for batch modeling.
+* Stream modeling : 
+  1 - run zookeeper on a terminal :
+        bin/zookeeper-server-start.sh config/zookeeper.properties
+  2 - run kafka on a terminal :
+        bin/kafka-server-start.sh config/server.properties
+  3 - run the dashboard on a seperate terminal ( directory of file to run : " ./Consumers ")
+      For plotting the metrics and predictions:
+        python3 PredictionPlotter_Consumer.py
+  4 - run the application on a seperate terminal ( on base directory ) :
+        python3 app.py
+  5 - when you run the application , you can choose which streaming model you want to use
     
   
   
