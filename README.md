@@ -68,3 +68,7 @@ Using Time Series processing and analysis techniques leveraging three main model
     ```
 
 5. When you run the application, you can choose which streaming model you want to use.
+
+### Contributors: 
+* Mohammed JAWHAR
+* Mohamad EL OSMAN
